@@ -1,6 +1,7 @@
+
 const artworks = [
-    { title: "Œuvre 1", image: "url_oeuvre1.jpg" },
-    { title: "Œuvre 2", image: "url_oeuvre2.jpg" },
+    { title: "Œuvre 1", image: "oeuvre_maxoeuf.jpg" },
+    { title: "Œuvre 2", image: "oeuvre_tim.jpg" },
     // Ajoute d'autres œuvres ici
 ];
 
@@ -12,3 +13,7 @@ artworks.forEach(artwork => {
     div.innerHTML = `<h2>${artwork.title}</h2><img src="${artwork.image}" alt="${artwork.title}">`;
     gallery.appendChild(div);
 });
+
+
+
+
